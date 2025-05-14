@@ -37,7 +37,7 @@ sudo apt install ansible-core
 - Clone the repository:
 
 ```
-git clone https://github.com/DaniTheHack3r/personal-kali-customization.git
+git clone https://github.com/x4yah/personal-kali-customization.git
 
 cd personal-kali-customization
 ```
