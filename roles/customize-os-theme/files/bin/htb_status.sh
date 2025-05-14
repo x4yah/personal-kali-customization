@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ICONCOLOR=e53935
+ICONCOLOR=00CC66
 
 IFACE=$(/usr/sbin/ifconfig | grep tun0 | awk '{print $1}' | tr -d ':')
 
