@@ -2,6 +2,7 @@
 - include_tasks: kerbrute.yml
 - include_tasks: nvim.yml
 - include_tasks: chisel.yml
+- include_tasks: docker.yml
 - include_tasks: vscode.yml
 - include_tasks: firefox.yml
 - include_tasks: fzf.yml
