@@ -6,6 +6,27 @@
   become: true
   become_method: sudo
 
+- name: "Installing Python Azure"
+  apt:
+    name: "python3-azure"
+    state: present
+  become: true
+  become_method: sudo
+
+- name: "Installing VMWare Tools For fix shorcuts issues"
+  apt:
+    name: "open-vm-tools open-vm-tools-desktop"
+    state: present
+  become: true
+  become_method: sudo
+  
+- name: "Installing Redis"
+  apt:
+    name: "redis"
+    state: present
+  become: true
+  become_method: sudo
+
 # Installing Firejail from source
 - name: "Cloning Firejail repository"
   git:
